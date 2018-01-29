@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,900');
+
+body{
+        background: #e6e5e5;
+}
+
+
+}
+.col-sm{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;  
+        width: auto;
+        height: auto;
+}
+.box-1 .box-2 .box-3 .box-4 .box-5 .box-6{
+        height: 300px;
+        box-shadow: 0px 0px 19px 1px rgba(204,202,204,1);
+        transition: .3s; 
+        border-radius: 50px;
+} 
+
+.box-1:hover{
+        background: #25c8d2;
+        color: white;
+        transition: .7s;
+        box-shadow: 0px 16px 27px 1px rgba(204,202,204,1);
+}
+
+.box-2:hover{
+        background: #697771;
+        color: white;
+        transition: .7s;
+        box-shadow: 0px 16px 27px 1px rgba(204,202,204,1);
+}
+
+.box-3:hover{
+        background: #25c8d2;
+        color: white;
+        transition: .7s;
+        box-shadow: 0px 16px 27px 1px rgba(204,202,204,1);
+}
+
+.box-4:hover{
+        background: #697771;
+        color: white;
+        transition: .7s;
+        box-shadow: 0px 16px 27px 1px rgba(204,202,204,1);
+}
+
+.box-5:hover{
+        background: #25c8d2;
+        color: white;
+        transition: .7s;
+        box-shadow: 0px 16px 27px 1px rgba(204,202,204,1);
+}
+
+.box-6:hover{
+        background: #697771;
+        color: white;
+        transition: .7s;
+        box-shadow: 0px 16px 27px 1px rgba(204,202,204,1);
+}
+
+.card-title:hover{
+        color: #e6e5e5;
+}
+
+.car.box{
+        width: auto;
+        height: auto;
+}
+
+.titulo.row{
+        display: flex;
+        align-items: center;
+        align-content: center;
+}
+
+.car-body{      
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: auto;
+}
+
+.col-12{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.card-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 150px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 2px;             
+        border-radius: 20px;
+        margin-bottom: 20px;
+        border-color: #acacac;
+}
+.card-text{
+        font-size: 12px;
+        font-style: oblique;
+        text-align: center;
+}
+
+.card-subtitle.mb-2{
+        text-align: center;
+        color: #929292;
+}
+
+.fa.fa-bars{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+}
+
+h6{
+        font-size: 14px;     
+}
+
+p{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;       
+}
+
+.titulo-1{
+        text-align: center;
+}
+
+
+
+/*header*/
+
+.icons {
+        text-align: right;
+}
+
+.img-background{
+        background: linear-gradient(to right, #1e5799 0%,#0e245f 75%);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 60%;
+        top: 0;
+}
+
+.img-background div{
+        position: absolute;
+        right: -62px;
+        top: 20%;
+}
+
+.img-background > div > h1{
+        font-size: 6rem;
+        color: #e6e5e5;
+        font-family: 'raleway';
+        font-weight: 600;
+}
+
+.img-background span{
+        font-size: 7rem;
+}
+
+.img-background p {
+        margin-top: -20px;
+        color: #e6e5e5;
+        font-size: 1.3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-left: 5px;
+}
+
+.img-background a {
+        color: #e6e5e5;
+        background-color: #e6e5e538;
+        border-radius: 50%;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+}
+
+.img-background a:hover {
+        transform: scale(1.1)
+}
+
+.background{
+        background-color: azure;
+        background-image: url(https://redspotdesign-g2u4nfvkh.netdna-ssl.com/wp-content/uploads/responsive-web-design-dallas.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+        margin-bottom: 40px;
+        position: relative;
+}
+
